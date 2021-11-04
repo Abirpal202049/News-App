@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>News App</title>
+  </head>
+  <body>
+    <nav class="Heading">
+      <h1>Business News</h1>
+    </nav>
+
+    <div class="options" id="subnavbar">
+      <ul>
+        <li><a class="linktopage" href="../components/index.html">United State</a></li>
+        <li><a class="linktopage" href="../components/india.html">India</a></li>
+        <li><a class="linktopage" href="../components/china.html">China</a></li>
+        <li><a class="linktopage" href="../components/england.html">Australia</a></li>
+        <li><a class="linktopage" href="../components/japan.html">Italy</a></li>
+      </ul>
+    </div>
+    <div class="allnews" id="root"></div>
+    <footer class="footer"></footer>
+    <!-- Load React. -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="../scripts/england.js"></script>
+  </body>
+</html>
